@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-div {
+  height: 100vh;
+  background-color: #040723;
+}
+
+.child-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+
+figcaption {
+  color: aliceblue;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.addItems {
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 400px;
+  padding-left: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.addItems > i {
+  padding-right: 15px;
+}
+
+i:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.todos {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 5px;
+  width: 430px;
+  height: 40px;
+  background-color: #5635df;
+  color: white;
+  padding: 0px 10px 0px 10px;
+}
+
+.todos > h3 {
+  width: 390px;
+}
+
+.removeAll {
+  margin-top: 10px;
+}
+
+.removeAll_btn {
+  height: 40px;
+  width: 100px;
+  border: 2px solid #5635df;
+  color: #5635df;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
